@@ -17,7 +17,7 @@ $(document).ready (()=> {
     
     //Create a function, generateHTML(), that is triggered by the start button, and generates the HTML seen on the project video...
     
-    $("body").on("click touchstart", ".start-button", function(event){
+    $("body").on("click", ".start-button", function(event){
         event.preventDefault();  
         generateHTML();
     
