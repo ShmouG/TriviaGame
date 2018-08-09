@@ -25,7 +25,7 @@ $(document).ready (()=> {
     
     }); // Closes start-button click
     
-    $("body").on("click touchstart", ".answer", function(event){
+    $("body").on("click touchstart", ".answer", function(){
         //answeredQuestion = true;
         selectedAnswer = $(this).text();
         if(selectedAnswer === correctAnswers[questionCounter]) {
@@ -41,7 +41,7 @@ $(document).ready (()=> {
         }
     }); // Close .answer click
     
-    $("body").on("click touchstart", ".reset-button", function(event){
+    $("body").on("click touchstart", ".reset-button", function(){
         resetGame();
     }); // Closes reset-button click
     

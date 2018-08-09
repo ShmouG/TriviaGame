@@ -18,6 +18,7 @@
   
   .answer:hover, :focus {
     background: cyan;
+
   }
   
   .answer {
@@ -27,6 +28,9 @@
     padding-left: 14px;
     background-color: white;
     border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    white-space: nowrap; 
   }
   
   .img-wrong {
