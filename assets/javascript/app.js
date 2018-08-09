@@ -117,9 +117,9 @@ $(document).ready (()=> {
     var startScreen;
     var gameHTML;
     var counter = 30;
-    var questionArray = ["What is the capital of Australia?", "What is the capital of Liberia?", "What is the capital of Taiwan?", "What is the capital of Japan?", "What is the capital of China?", "What is the capital of Turkey?", "What is the capital of Colombia?", "What is the capital of India?"];
-    var answerArray = [["Canberra", "Melbourne", "Sydney", "Darwin"], ["Arthington","Monrovia","Tuzon","Marshall"], ["Tainan City", "Taichung", "Taipei", "Hsinchu"], ["Kyoto","Hiroshima","Tokyo","Osaka"], ["Hong Kong", "Macau", "Shanghai", "Beijing"], ["Ankara","Istanbul","Antalya","Bursa"], ["Medellin", "Bogota", "Cartagena", "Cali"], ["Mumbai","Hyderabad","Bangalore","New Delhi"]];
-    var correctAnswers = ["A. Canberra", "B. Monrovia", "C. Taipei", "C. Tokyo", "D. Beijing", "A. Ankara", "B. Bogota", "D. New Delhi"];
+    var questionArray = ["Who shits in the woods?", "Which insect doesn't poop?", "What is a domestic animal", "Which animal self-reproduces?", "Why can't The Weeknd feel his face?", "What does Sir Mix-A-Lot like more than anything?", "What is the space-time continuum?", "Does infinity exist?"];
+    var answerArray = [["Bears", "Mosquitos", "Xavier Hanson", "Dogs"], ["Big Butts","Mosquitos","Sonic The Hedeghog","Marshall Tucker"], ["Robocop", "The Iron-Giant", "Dog", "Pikachu"], ["Jessica Simpson","Sarah Jessica Parker","Parthenogenesis","Germanic Terrier Supreme"], ["Too many heels to teh face", "He's trippin'", "Probably walked into a door", "Too many drugs"], ["Big Butts","guacamole","bagels 'n' lox","Social justice"], ["Tesla's latest car model", "3 dimensions of space and 1 dimension of time.", "Space-age toilet", "All-in-one shampoo"], ["Say what!?","I Don't care","No","Yes"]];
+    var correctAnswers = ["A. Bears", "B. Mosquitos", "C. Dog", "C. Parthenogenesis", "D. Too many drugs", "A. Big Butts", "B. 3 dimensions of space and the 1 dimension of time.", "D. Yes"];
     var questionCounter = 0;
     var selecterAnswer;
     var theClock;
